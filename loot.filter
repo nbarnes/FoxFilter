@@ -1,7 +1,9 @@
 
 //Basics
+
 //Hide Gold Piles Smaller Than (<) X
 ItemDisplay[GOLD<4000]:
+
 //Health & Mana Potions
 ItemDisplay[rvl]: %PURPLE%R %WHITE%70%
 ItemDisplay[hp4]: %RED%!%WHITE%H
@@ -22,6 +24,7 @@ ItemDisplay[mp3 CLVL<26]: %BLUE%!%WHITE%Mana
 ItemDisplay[mp1 CLVL>14]:
 ItemDisplay[mp2 CLVL>19]:
 ItemDisplay[mp3 CLVL>25]:
+
 //Essences (Respec Token)
 ItemDisplay[tes]: %GOLD%Suffering [Andariel]
 ItemDisplay[ceh]: %GOLD%Hatred [Mephisto]
@@ -50,6 +53,7 @@ ItemDisplay[maz]: %PURPLE%%NAME%
 
 //Wirt's Leg
 ItemDisplay[leg]: %NAME%
+
 //Uber Keys
 ItemDisplay[pk1]: %GOLD%Terror [Countess]
 ItemDisplay[pk2]: %GOLD%Hate [Summoner]
@@ -57,9 +61,6 @@ ItemDisplay[pk3]: %GOLD%Destruction [Nihlathak]
 ItemDisplay[dhn]: %GOLD%Diablo's Horn
 ItemDisplay[bey]: %GOLD%Baal's Eye
 ItemDisplay[mbr]: %GOLD%Mephisto's Brain
-
-
-
 
 //Utility
 ItemDisplay[tsc]: %GREEN%!%WHITE%TP
@@ -91,8 +92,6 @@ ItemDisplay[cq2 MAG ILVL>41]:
 ItemDisplay[cq2 RARE ILVL>41]: %NAME%
 ItemDisplay[cq2 UNI ILVL>41]: %NAME%
 ItemDisplay[cq2 SET ILVL>41]: %NAME%
-//
-
 
 //RUNES
 //1-16
@@ -504,20 +503,14 @@ ItemDisplay[MAG ulb ILVL>84]: %BLUE%%NAME%
 ItemDisplay[MAG xlb ILVL>84]: %BLUE%%NAME%
 //Boots
 ItemDisplay[MAG lbt ILVL>84]: %BLUE%%NAME%
-//
-
-
-//Rerolling
-ItemDisplay[MAG cm3 ILVL>90]: %NAME%
-//
 
 //Runewords
 ItemDisplay[RW]: %NAME%
 
 //Charms
+ItemDisplay[cm3 ILVL>90]: %NAME% %ORANGE%[ILVL91+]
 ItemDisplay[!UNI (cm1 OR cm2 OR cm3)]: %NAME%
 ItemDisplay[UNI (cm1 OR cm2 OR cm3)]: %RED%%NAME%
-//
 
 //BASES
 //Armor
