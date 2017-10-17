@@ -1,12 +1,4 @@
 
-//SynFilter: An Item Filter for the Path of Diablo Mod
-//Filter: Standard Red
-//Version: 1.3.5c
-//Created by: Synial
-//For questions, comments, feedback, or suggestions:
-//Contact on discord: Synial#0688
-//Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
-
 //Basics
 //Hide Gold Piles Smaller Than (<) X
 ItemDisplay[GOLD<4000]:

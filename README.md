@@ -1,4 +1,4 @@
-https://raw.githubusercontent.com/nbarnes/foxfilter/master/item.filter
+https://raw.githubusercontent.com/nbarnes/FoxFilter/master/loot.filter
 
 A custom loot filter for [Path of Diablo](https://pathofdiablo.com), based on Synial's excellent SynFilter, only with added vulpinity.
 
