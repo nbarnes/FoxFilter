@@ -157,30 +157,6 @@ ItemDisplay[xyz]: %TAN%%NAME%
 
 //GEMS
 //1. Amethyst 2. Diamond 3. Emerald 4. Ruby 5. Sapphire 6. Topaz 7. Skull
-//chipped (Tier 1)
-ItemDisplay[GEM=1 GEMTYPE=1 DIFFICULTY>0]:
-ItemDisplay[GEM=1 GEMTYPE=2 DIFFICULTY>0]:
-ItemDisplay[GEM=1 GEMTYPE=3 DIFFICULTY>0]:
-ItemDisplay[GEM=1 GEMTYPE=4 DIFFICULTY>0]:
-ItemDisplay[GEM=1 GEMTYPE=5 DIFFICULTY>0]:
-ItemDisplay[GEM=1 GEMTYPE=6 DIFFICULTY>0]:
-ItemDisplay[GEM=1 GEMTYPE=7 DIFFICULTY>0]:
-//flawed (Tier2)
-ItemDisplay[GEM=2 GEMTYPE=1 DIFFICULTY>0]:
-ItemDisplay[GEM=2 GEMTYPE=2 DIFFICULTY>0]:
-ItemDisplay[GEM=2 GEMTYPE=3 DIFFICULTY>0]:
-ItemDisplay[GEM=2 GEMTYPE=4 DIFFICULTY>0]:
-ItemDisplay[GEM=2 GEMTYPE=5 DIFFICULTY>0]:
-ItemDisplay[GEM=2 GEMTYPE=6 DIFFICULTY>0]:
-ItemDisplay[GEM=2 GEMTYPE=7 DIFFICULTY>0]:
-//normal (Tier3)
-ItemDisplay[GEM=3 GEMTYPE=1 DIFFICULTY>0]:
-ItemDisplay[GEM=3 GEMTYPE=2 DIFFICULTY>0]:
-ItemDisplay[GEM=3 GEMTYPE=3 DIFFICULTY>0]:
-ItemDisplay[GEM=3 GEMTYPE=4 DIFFICULTY>0]:
-ItemDisplay[GEM=3 GEMTYPE=5 DIFFICULTY>0]:
-ItemDisplay[GEM=3 GEMTYPE=6 DIFFICULTY>0]:
-ItemDisplay[GEM=3 GEMTYPE=7 DIFFICULTY>0]:
 //chipped (Tier1): (lowercase display)
 ItemDisplay[GEM=1 GEMTYPE=1]: chipped amethyst
 ItemDisplay[GEM=1 GEMTYPE=2]: chipped diamond
@@ -221,9 +197,6 @@ ItemDisplay[GEM=5 GEMTYPE=4]: %ORANGE%PERFECT RUBY
 ItemDisplay[GEM=5 GEMTYPE=5]: %ORANGE%PERFECT SAPPHIRE
 ItemDisplay[GEM=5 GEMTYPE=6]: %ORANGE%PERFECT TOPAZ
 ItemDisplay[GEM=5 GEMTYPE=7]: %ORANGE%PERFECT SKULL
-//
-
-
 
 //Uniques
 //
@@ -389,8 +362,6 @@ ItemDisplay[UNI SOCK>0]: %NAME% [%SOCKETS%]
 ItemDisplay[SET SOCK>0]: %NAME% [%SOCKETS%]
 ItemDisplay[UNI]: %NAME%
 ItemDisplay[SET]: %NAME%
-//
-
 
 //Amulets
 ItemDisplay[MAG amu ILVL=85]: %BLUE%%NAME%
@@ -412,7 +383,6 @@ ItemDisplay[MAG amu ILVL<85]: %BLUE%%NAME%
 
 //Rings
 ItemDisplay[MAG rin]: %BLUE%%NAME%
-//
 
 //Gloves
 //Blood Gloves (Heavy Gloves/Sharkskin/Vampirebone) + NEF + RUBY + JEWEL
@@ -451,7 +421,6 @@ ItemDisplay[MAG (xvg OR uvg) ILVL=97]: %BLUE%%NAME%
 ItemDisplay[MAG (xvg OR uvg) ILVL=98]: %BLUE%%NAME%
 ItemDisplay[MAG (xvg OR uvg) ILVL=99]: %BLUE%%NAME%
 
-
 //Hit Power Gloves (Chain Gloves/Heavy Bracers/Vambraces) + ORT + SAPPHIRE + JEWEL
 //Chain Gloves
 //ItemDisplay[MAG vgl ILVL=85]: %BLUE%%NAME%
@@ -483,8 +452,6 @@ ItemDisplay[MAG (xmg OR umg) ILVL=96]: %BLUE%%NAME%
 ItemDisplay[MAG (xmg OR umg) ILVL=97]: %BLUE%%NAME%
 ItemDisplay[MAG (xmg OR umg) ILVL=98]: %BLUE%%NAME%
 ItemDisplay[MAG (xmg OR umg) ILVL=99]: %BLUE%%NAME%
-//
-
 
 //BELTS
 //Exceptional and Elite Quality belts ONLY
@@ -1770,9 +1737,6 @@ ItemDisplay[NMAG !RW ILVL>14 6hx]:
 ItemDisplay[NMAG !RW ILVL>14 rxb]:
 ItemDisplay[NMAG !RW ILVL>14 8rx]:
 ItemDisplay[NMAG !RW ILVL>14 6rx]:
-//
-//
-
 
 
 //Armor (Helm, Body, Shield, Glove, Boot, Belt, Circlet
@@ -1892,7 +1856,7 @@ ItemDisplay[NMAG !ETH !RW SOCK=0 urg]: %NAME%
 ItemDisplay[NMAG ETH !RW SOCK>1 ush]: ETH %NAME% [%SOCKETS%]
 ItemDisplay[NMAG ETH !RW SOCK>1 uit]: ETH %NAME% [%SOCKETS%]
 ItemDisplay[NMAG ETH !RW SOCK>1 urg]: ETH %NAME% [%SOCKETS%]
-//
+
 ItemDisplay[NMAG !RW SOCK<2 ILVL<45 buc]:
 ItemDisplay[NMAG !RW SOCK<2 ILVL<45 xuc]:
 ItemDisplay[NMAG !RW SOCK<2 ILVL<45 uuc]:
@@ -1917,7 +1881,7 @@ ItemDisplay[NMAG !RW SOCK<2 ILVL<45 xsh]:
 ItemDisplay[NMAG !RW SOCK<2 ILVL<45 spk]:
 ItemDisplay[NMAG !RW SOCK<2 ILVL<45 xpk]:
 ItemDisplay[NMAG !RW SOCK<2 ILVL<45 upk]:
-//
+
 ItemDisplay[NMAG !RW ILVL>44 buc]:
 ItemDisplay[NMAG !RW ILVL>44 xuc]:
 ItemDisplay[NMAG !RW ILVL>44 uuc]:
@@ -1942,7 +1906,7 @@ ItemDisplay[NMAG !RW ILVL>44 xsh]:
 ItemDisplay[NMAG !RW ILVL>44 spk]:
 ItemDisplay[NMAG !RW ILVL>45 xpk]:
 ItemDisplay[NMAG !RW ILVL>44 upk]:
-//
+
 //Gloves, Boots, Belts, Circlets -> (Disable to Imbue)
 ItemDisplay[NMAG EQ4 !RW ILVL>14]:
 ItemDisplay[NMAG EQ5 !RW ILVL>14]:
@@ -1951,14 +1915,20 @@ ItemDisplay[NMAG ci0 !RW ILVL>14]:
 ItemDisplay[NMAG ci1 !RW ILVL>14]:
 
 //Tiara Diadem Imbue Charsi
+
 //tiara
+
 ItemDisplay[NMAG ci2 !RW ILVL>14 SOCK=0]: %NAME%
 ItemDisplay[NMAG ci2 !RW ILVL>14 SOCK>0]:
+
 //diadem
+
 ItemDisplay[NMAG ci3 !RW ILVL>14 SOCK=0]: %NAME%
 ItemDisplay[NMAG ci3 !RW ILVL>14 SOCK>0]:
-//
+
+
 //Class Items (Paladin Shields, Assassin Claws, Amazon Weapons, Necromancer Heads
+
 //Druid Pelts
 ItemDisplay[NMAG !RW CL1 SOCK=1]:
 ItemDisplay[NMAG !RW CL1 ETH]:
@@ -1966,12 +1936,15 @@ ItemDisplay[NMAG CL1 SOCK>1 !RW !ETH]: %NAME% [%SOCKETS%]
 ItemDisplay[CL1 SOCK=0 NMAG !RW SK245>2]: %RED%%NAME%
 ItemDisplay[CL1 SOCK=2 NMAG !RW SK245>2]: %RED%%NAME% %[SOCKETS]%
 ItemDisplay[CL1 SOCK=3 NMAG !RW SK245>2]: %RED%%NAME% %[SOCKETS]%
+
 //Barbarian Helms
 ItemDisplay[NMAG CL2 !RW SOCK=1]:
 ItemDisplay[NMAG CL2 !RW ETH]:
 ItemDisplay[NMAG !RW CL2 SOCK>1 !ETH]: %NAME% [%SOCKETS%]
+
 //Paladin Shields
 ItemDisplay[NMAG !RW CL3 (SOCK=1 OR RES<20) ILVL>55]:
+
 //Assassin Claws
 ItemDisplay[NMAG ktr ILVL>26]:
 ItemDisplay[NMAG !RW !RW wrb ILVL>26]:
@@ -1996,6 +1969,7 @@ ItemDisplay[NMAG !RW 7cs ILVL>68]:
 //ItemDisplay[NMAG !RW 7hw ILVL>68]:
 //ItemDisplay[NMAG !RW 7tw ILVL>68]:
 ItemDisplay[NMAG !RW 7qr ILVL>68]:
+
 //Amazon Weapons
 ItemDisplay[NMAG !RW am1 ILVL>26]:
 ItemDisplay[NMAG !RW am2 ILVL>26]:
