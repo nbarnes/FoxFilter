@@ -157,6 +157,11 @@ ItemDisplay[xyz]: %TAN%%NAME%
 
 //GEMS
 //1. Amethyst 2. Diamond 3. Emerald 4. Ruby 5. Sapphire 6. Topaz 7. Skull
+// Obsolete sub-flawless/perfect gems in NM+ difficulty
+ItemDisplay[GEM=1 GEMTYPE>0 DIFFICULTY>0]:
+ItemDisplay[GEM=2 GEMTYPE>0 DIFFICULTY>0]:
+ItemDisplay[GEM=3 GEMTYPE>0 DIFFICULTY>0]:
+ItemDisplay[GEM=1 GEMTYPE>0 DIFFICULTY>0]:
 //chipped (Tier1): (lowercase display)
 ItemDisplay[GEM=1 GEMTYPE=1]: chipped amethyst
 ItemDisplay[GEM=1 GEMTYPE=2]: chipped diamond
