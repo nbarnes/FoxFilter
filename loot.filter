@@ -161,7 +161,6 @@ ItemDisplay[xyz]: %TAN%%NAME%
 ItemDisplay[GEM=1 GEMTYPE>0 DIFFICULTY>0]:
 ItemDisplay[GEM=2 GEMTYPE>0 DIFFICULTY>0]:
 ItemDisplay[GEM=3 GEMTYPE>0 DIFFICULTY>0]:
-ItemDisplay[GEM=1 GEMTYPE>0 DIFFICULTY>0]:
 //chipped (Tier1): (lowercase display)
 ItemDisplay[GEM=1 GEMTYPE=1]: chipped amethyst
 ItemDisplay[GEM=1 GEMTYPE=2]: chipped diamond
