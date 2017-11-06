@@ -479,7 +479,7 @@ ItemDisplay[MAG lbt ILVL>84]: %BLUE%%NAME%
 ItemDisplay[RW]: %NAME%
 
 //Charms
-ItemDisplay[cm3 ILVL>90]: %NAME% %ORANGE%[ILVL 91+]
+ItemDisplay[cm3 ILVL>90]: %NAME% %ORANGE%[iLVL 91+]
 ItemDisplay[!UNI (cm1 OR cm2 OR cm3)]: %NAME%
 ItemDisplay[UNI (cm1 OR cm2 OR cm3)]: %RED%%NAME%
 
@@ -522,6 +522,7 @@ ItemDisplay[NMAG ETH !RW SOCK=4 DEF>800 utp]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKE
 ItemDisplay[NMAG ETH !RW SOCK=4 DEF>800 xar]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[NMAG ETH !RW SOCK=4 DEF>800 xul]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[NMAG ETH !RW SOCK=4 DEF>800 xth]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+
 //Top Tier Dusk Shroud, Wyrmhide, Archon Plate
 ItemDisplay[uui !ETH NMAG !SOCK=1 !SOCK=2 DEF>500]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[uui !ETH NMAG SOCK>2 DEF>450]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
@@ -529,6 +530,7 @@ ItemDisplay[uea !ETH NMAG !SOCK=1 !SOCK=2 DEF>500]: %DGREEN%%NAME% %RED%[%SOCKET
 ItemDisplay[uea !ETH NMAG SOCK>2 DEF>465]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[utp !ETH NMAG !SOCK=1 !SOCK=2 DEF>550]: %DGREEN%%NAME% %RED%[%SOCKETS%]
 ItemDisplay[utp !ETH NMAG SOCK>2 DEF>509]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+
 //Standard Dusk Shroud, Wyrmhide, Archon Plate
 ItemDisplay[uui !ETH NMAG !SOCK=1]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[uea !ETH NMAG !SOCK=1]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
@@ -1220,7 +1222,10 @@ ItemDisplay[RARE EQ4 !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE EQ5 !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE EQ6 !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE jew !ID]: %YELLOW%%NAME% %RED%¤
-//
+
+// Display ilvl on rare jewels for x6 PSkull rerolling
+ItemDisplay[RARE jew ID]: %YELLOW%%NAME* %ORANGE%[iLVL %ILVL%]
+
 //Class Specific Rares (Druid Pelts, Barb Helms, Paladin Shields, Necro Heads, Assassin Claws, Sorc Orbs, Amazon Bow/Jav
 ItemDisplay[RARE CL1 !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE CL2 !ID]: %YELLOW%%NAME%
@@ -1229,19 +1234,20 @@ ItemDisplay[RARE CL4 !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE CL5 !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE CL6 !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE CL7 !ID]: %YELLOW%%NAME%
-//
+
 //Maybe (Staff, Wand, Scepter)
 ItemDisplay[RARE WP11 !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE WP12 !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE WP13 !ID]: %YELLOW%%NAME%
+
 //Merc Rares
 ItemDisplay[RARE WP3 !ID ILVL>65]: %NAME%
 ItemDisplay[RARE WP7 !ID ILVL>65]: %NAME%
 ItemDisplay[RARE WP8 !ID ILVL>65]: %NAME%
-//
+
 //!DISABLED! Show ALL Rare ELITE Weapons !DISABLED!
 //ItemDisplay[RARE ELT WEAPON !ID]: %YELLOW%%NAME%
-//
+
 //None of the Above
 //Weapons: Axe, Mace, Sword, Dagger, Throwing Weapon, Javelin, Spear, Polearm, Bow, Crossbow
 ItemDisplay[RARE WP1 !ID ILVL>65]:
