@@ -1224,7 +1224,7 @@ ItemDisplay[RARE EQ6 !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE jew !ID]: %YELLOW%%NAME% %RED%¤
 
 // Display ilvl on rare jewels for x6 PSkull rerolling
-ItemDisplay[RARE jew ID]: %YELLOW%%NAME* %ORANGE%[iLVL %ILVL%]
+ItemDisplay[RARE jew ID]: %YELLOW%%NAME% %ORANGE%[iLVL %ILVL%]
 
 //Class Specific Rares (Druid Pelts, Barb Helms, Paladin Shields, Necro Heads, Assassin Claws, Sorc Orbs, Amazon Bow/Jav
 ItemDisplay[RARE CL1 !ID]: %YELLOW%%NAME%
