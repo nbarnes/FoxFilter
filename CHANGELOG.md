@@ -7,3 +7,7 @@
 1.1
 ===
 Rare jewels now display iLVL for crafting
+
+1.2
+===
+Added section highlighting dream bases
