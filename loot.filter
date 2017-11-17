@@ -708,7 +708,6 @@ ItemDisplay[CL3 !ETH NMAG RES>0 SOCK=3 ILVL<76]: %DGREEN%%NAME% %GRAY%[%SOCKETS%
 ItemDisplay[CL3 !ETH NMAG RES>0 SOCK=4 ILVL<76]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[CL3 !ETH NMAG RES>30 SOCK=4]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 
-
 //Claws
 //ItemDisplay[CL5 (CLSK6>1 AND SK271>1)]: %RED%%NAME%
 //ItemDisplay[CL5 (TABSK48>2 AND SK271>2)]: %RED%%NAME%
@@ -853,6 +852,11 @@ Itemdisplay[fla NMAG SOCK=0 ILVL>25]: %DGREEN%%NAME% %WHITE%[L%ILVL%]
 ItemDisplay[7cr NMAG SOCK=5]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[7wa NMAG SOCK=5]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 
+// 3os Tiara, Circlet, Bone Visage, Demonhead = Dream
+ItemDisplay[NMAG ci2 ci3 uh9 usk !ETH SOCK=3]: %DGREEN%%NAME% [%SOCKETS%]
+
+// 3os Paladin Shields = Dream
+ItemDisplay[NMAG ELT CL3 !ETH SOCK=3 RES>35]: %DGREEN%%NAME% [%SOCKETS%]
 
 //Uncommon Runewords
 
