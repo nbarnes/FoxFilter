@@ -11,3 +11,8 @@ Rare jewels now display iLVL for crafting
 1.2
 ===
 Added section highlighting dream bases
+
+1.3
+===
+Thunder Maul removed
+Highlighting on Dream helm bases updated

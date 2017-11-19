@@ -852,13 +852,13 @@ ItemDisplay[7cr NMAG SOCK=5]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[7wa NMAG SOCK=5]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 
 // 3os Tiara, Diadem, Bone Visage, Demonhead = Dream
-ItemDisplay[NMAG ci2 !ETH SOCK=3]: %DGREEN%%NAME% [%SOCKETS%]
-ItemDisplay[NMAG ci3 !ETH SOCK=3]: %DGREEN%%NAME% [%SOCKETS%]
-ItemDisplay[NMAG uh9 !ETH SOCK=3]: %DGREEN%%NAME% [%SOCKETS%]
-ItemDisplay[NMAG usk !ETH SOCK=3]: %DGREEN%%NAME% [%SOCKETS%]
+ItemDisplay[NMAG ci2 !ETH SOCK=3]: %DGREEN%%NAME% %WHITE%[%SOCKETS%]
+ItemDisplay[NMAG ci3 !ETH SOCK=3]: %DGREEN%%NAME% %WHITE%[%SOCKETS%]
+ItemDisplay[NMAG uh9 !ETH SOCK=3]: %DGREEN%%NAME% %WHITE%[%SOCKETS%]
+ItemDisplay[NMAG usk !ETH SOCK=3]: %DGREEN%%NAME% %WHITE%[%SOCKETS%]
 
 // 3os Paladin Shields = Dream
-ItemDisplay[NMAG ELT CL3 !ETH SOCK=3 RES>35]: %DGREEN%%NAME% [%SOCKETS%]
+ItemDisplay[NMAG ELT CL3 !ETH SOCK=3 RES>35]: %DGREEN%%NAME% %WHITE%[%SOCKETS%]
 
 //Uncommon Runewords
 
@@ -869,9 +869,6 @@ ItemDisplay[7gd ETH NMAG SOCK=0]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[7gd ETH NMAG SOCK=6]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[7p7 ETH NMAG SOCK=0]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[7p7 ETH NMAG SOCK=6]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[7gm ETH NMAG SOCK=0]: ETH %NAME%
-ItemDisplay[7gm ETH NMAG SOCK=6]: ETH %NAME% [%SOCKETS%]
-
 
 //Death
 ItemDisplay[7wa ETH NMAG SOCK=5]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
@@ -897,13 +894,10 @@ ItemDisplay[amb SOCK=0 NMAG TABSK0>2]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 //ItemDisplay[6sw NMAG SOCK=0]: %NAME%
 //ItemDisplay[6hb NMAG SOCK=0]: %NAME%
 
-
 //Last Wish
 //6os Berserker Axe, Phase Blade, Thunder Maul = LW = Last Wish
 ItemDisplay[7cr !ETH NMAG SOCK=6]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[7wa !ETH NMAG SOCK=6]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[7gm !ETH NMAG SOCK=6]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
-
 
 //Lawbringer
 ItemDisplay[7cr NMAG SOCK=3]: %DGREEN% %NAME% %YELLOW%[%SOCKETS%]
