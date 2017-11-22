@@ -16,3 +16,7 @@ Added section highlighting dream bases
 ===
 Thunder Maul removed
 Highlighting on Dream helm bases updated
+
+1.4
+===
+Tweaked highlighting on Key of Chaos, map tokens, uber organs

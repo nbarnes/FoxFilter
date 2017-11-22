@@ -36,7 +36,7 @@ ItemDisplay[cx5]: %PURPLE%Orb of Corruption
 
 // Map Items
 ItemDisplay[cx6]: %PURPLE%%NAME%
-ItemDisplay[cx7]: %PURPLE%¤¤¤¤¤ KEY OF CHAOS ¤¤¤¤¤
+ItemDisplay[cx7]: %PURPLE%¤ KEY OF CHAOS ¤
 //ItemDisplay[ma1]: %PURPLE%%NAME%
 ItemDisplay[ma1]: %PURPLE%%NAME%
 //ItemDisplay[ma2]: %PURPLE%%NAME%
@@ -44,9 +44,9 @@ ItemDisplay[ma2]: %PURPLE%%NAME%
 //ItemDisplay[ma3]: %PURPLE%%NAME%
 ItemDisplay[ma3]: %PURPLE%%NAME%
 //ItemDisplay[ma4]: %PURPLE%Desecrated Temple Relic [Tier 1]
-ItemDisplay[ma4]: %PURPLE%Tier 1 Relic
+ItemDisplay[ma4]: %PURPLE%¤ Tier 1 Relic ¤
 //ItemDisplay[ma5]: %PURPLE%Frigid Plateau [Tier 2]
-ItemDisplay[ma5]: %PURPLE%Tier 2 Relic
+ItemDisplay[ma5]: %PURPLE%¤ Tier 2 Relic ¤
 //ItemDisplay[ma6]: %PURPLE%%NAME%
 ItemDisplay[ma6]: %PURPLE%%NAME%
 ItemDisplay[maz]: %PURPLE%%NAME%
@@ -58,9 +58,9 @@ ItemDisplay[leg]: %NAME%
 ItemDisplay[pk1]: %GOLD%Terror [Countess]
 ItemDisplay[pk2]: %GOLD%Hate [Summoner]
 ItemDisplay[pk3]: %GOLD%Destruction [Nihlathak]
-ItemDisplay[dhn]: %GOLD%Diablo's Horn
-ItemDisplay[bey]: %GOLD%Baal's Eye
-ItemDisplay[mbr]: %GOLD%Mephisto's Brain
+ItemDisplay[dhn]: %RED%¤ Diablo's Horn ¤
+ItemDisplay[bey]: %RED%¤ Baal's Eye ¤
+ItemDisplay[mbr]: %RED%¤ Mephisto's Brain ¤
 
 //Utility
 ItemDisplay[tsc]: %GREEN%!%WHITE%TP
@@ -838,9 +838,9 @@ ItemDisplay[6ws ETH SOCK=6]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[crs NMAG SOCK=5]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[wsp NMAG SOCK=5]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[fla NMAG SOCK=5]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+
 //5os +3 Energy Shield Staff = CTA
 ItemDisplay[WP11 NMAG SOCK=5 SK58>2]: %DGREEN%%NAME% %RED%[%SOCKETS%]
-
 
 //4os Flail, Larzuk Gaurantee = HOTO = Heart of the Oak
 ItemDisplay[fla NMAG SOCK=4]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
@@ -895,7 +895,7 @@ ItemDisplay[amb SOCK=0 NMAG TABSK0>2]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 //ItemDisplay[6hb NMAG SOCK=0]: %NAME%
 
 //Last Wish
-//6os Berserker Axe, Phase Blade, Thunder Maul = LW = Last Wish
+//6os Berserker Axe, Phase Blade = LW = Last Wish
 ItemDisplay[7cr !ETH NMAG SOCK=6]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[7wa !ETH NMAG SOCK=6]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 
