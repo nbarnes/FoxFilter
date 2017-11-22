@@ -36,7 +36,7 @@ ItemDisplay[cx5]: %PURPLE%Orb of Corruption
 
 // Map Items
 ItemDisplay[cx6]: %PURPLE%%NAME%
-ItemDisplay[cx7]: %PURPLE%¤ KEY OF CHAOS ¤
+ItemDisplay[cx7]: %PURPLE%¤ Key of Chaos ¤
 //ItemDisplay[ma1]: %PURPLE%%NAME%
 ItemDisplay[ma1]: %PURPLE%%NAME%
 //ItemDisplay[ma2]: %PURPLE%%NAME%
