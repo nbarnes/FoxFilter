@@ -852,10 +852,10 @@ ItemDisplay[7cr NMAG SOCK=5]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[7wa NMAG SOCK=5]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 
 // 3os Tiara, Diadem, Bone Visage, Demonhead = Dream
-ItemDisplay[NMAG ci2 !ETH SOCK=3]: %DGREEN%%NAME% %WHITE%[%SOCKETS%]
-ItemDisplay[NMAG ci3 !ETH SOCK=3]: %DGREEN%%NAME% %WHITE%[%SOCKETS%]
-ItemDisplay[NMAG uh9 !ETH SOCK=3]: %DGREEN%%NAME% %WHITE%[%SOCKETS%]
-ItemDisplay[NMAG usk !ETH SOCK=3]: %DGREEN%%NAME% %WHITE%[%SOCKETS%]
+ItemDisplay[NMAG ci2 !ETH SOCK=3]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[NMAG ci3 !ETH SOCK=3]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG uh9 !ETH SOCK=3]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG usk !ETH SOCK=3]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 
 // 3os Paladin Shields = Dream
 ItemDisplay[NMAG ELT CL3 !ETH SOCK=3 RES>35]: %DGREEN%%NAME% %WHITE%[%SOCKETS%]
